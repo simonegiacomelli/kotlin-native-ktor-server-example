@@ -1,8 +1,6 @@
 ## Kotlin/Native Ktor server example
 
-Hello! This is an example of a REST API server built with Ktor with
-Kotlin/Native, with basic CRUD operations implemented with a mutable
-list as backing data source.
+Hello! This is an example of a basic REST API server implemented with Ktor for native targets using Kotlin/Native. This example demonstrates how to implement type-safe routing, and how Ktor content-negotiation makes it seamlessly integrate with kotlinx.serialization plugin for JSON encoding and decoding.
 
 You can run the server locally with Gradle task `runDebugExecutableLinuxX64`
 on Linux systems. The application will listen to port 8080 (you can change
