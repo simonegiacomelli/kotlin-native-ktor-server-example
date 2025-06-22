@@ -32,7 +32,7 @@ kotlin {
     }
 
     sourceSets {
-        val ktorVersion = "3.0.3"
+        val ktorVersion = "3.2.0"
         nativeMain.dependencies {
             implementation("io.ktor:ktor-server-core:$ktorVersion")
             implementation("io.ktor:ktor-server-resources:$ktorVersion")
